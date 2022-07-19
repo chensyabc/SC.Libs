@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Description>SC.netcore.Lib
+--Require .netcore version</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CSharp\ExcelNPOIUtil.cs" />
+  </ItemGroup>
+
+</Project>
